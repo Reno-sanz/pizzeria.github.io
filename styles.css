@@ -1,0 +1,120 @@
+*{
+
+}
+/** con esta linea de codigo se consigue quitar la barra de scroll de toda la pagina
+para poderla hacer ver mas estetica **/
+::-webkit-scrollbar {
+	display: none;
+}
+
+:root{
+	--principal-color:#F2DA78;
+	--titulo-font: 'Lexend Giga', sans-serif;
+	--h2-font: 'Hammersmith One', sans-serif;
+	--normal-font: 'Inter', sans-serif;
+}
+
+.con1{
+	background-image: url(img/pizza.jpg);
+	background-size: cover;
+	background-origin: border-box;
+	height: 2000px;
+}
+
+.icon_pizza{
+	padding: 20px 15px 0px 0px;
+	color: #fff;
+}
+.navbar{
+	display: inline-grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 40px;
+	float: right;
+	padding: 20px 60px; 
+	margin: 30px 30px 50px 0; 
+	text-align: center;
+	background: rgba(152, 129, 119, 0.3);
+	border-radius: 20px;
+	border:3px solid #fff;
+	transition: 0.5s;
+}
+a{
+	color: #000;
+}
+ul{
+	padding: 5px 48px;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+	background: var(--principal-color); 
+	color: #000;
+	font-family: var(--titulo-font); 
+	transition: box-shadow 0.5S,transform 0.2s;
+}
+.galery_button{
+	color: #fff;
+	animation-name: gallery;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+
+.con_title{
+	display: inline-block;
+	border: 3px solid #ffffff;
+	margin: 10px 20px 20px 20px;
+	border-radius: 15px;
+	width: 300px;
+	transition: 0.3s ;
+	display: inline-flex;
+}
+
+.title{
+	font-family: var(--titulo-font);
+	color: #fff;
+	padding: 20px 10px 20px 10px;
+}
+.first_txt{	
+
+	display: inline-flex;
+	text-align: center;
+	margin: 0 20px;
+	border-radius: 20px;
+}
+.first_txt h2{
+	display: inline-block;
+	font-family: var(--h2-font);
+	color: var(--principal-color);
+	padding: 10px;
+}
+
+.first_txt p{
+	float: left;
+	display: inline-block;
+	font-family: var(--normal-font);
+	padding: 10px 20px;
+	font-size: 22px;
+	color: #ffff;
+}
+.big_pizza{
+	color: var(--principal-color);
+	font-family: var(--h2-font);
+	font-size: 25px;
+}
+.con2{
+	margin: 1500px 0 0 475px;
+	padding: 20px;
+	display: inline-block; 
+	text-align: center;
+
+}
+.con2 h1, .con2 h2 , .con2 h3{
+	color: #fff;
+	padding: 10px;
+	margin: 10px;
+}
+.yes{
+	color: var(--principal-color);
+	font-size: 40px;
+}

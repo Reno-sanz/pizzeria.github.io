@@ -1,0 +1,29 @@
+.con_title:hover{
+	transform: translate(3px 2px);
+	box-shadow: 5px 5px var(--principal-color);
+	border: 3px solid var(--principal-color);
+
+}
+
+.navbar:hover{
+	background: rgba(252, 152, 112, 0.3);
+	box-shadow: 5px 5px#dedede;
+	border: 3px solid #dedede;
+}
+
+.navbar:hover > ul{
+	background: ; 
+}
+
+ul:hover{
+	box-shadow: 0px 0px 15px #fff;
+	transform: scale(1.05);
+}
+
+@keyframes gallery{
+	0% {background: #FF9B00}
+	25% {background:#FF5D00}
+	50% {background: #E7BD00}
+	75% {background: #B3B51B}
+	100% {background: #FF9B00}
+}
